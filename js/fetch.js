@@ -4,7 +4,7 @@ if (cityName != null) {
 console.log(input);
 }
 
-fetch(`http://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${APIKEY}`)
+fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${APIKEY}`)
 // .then(function(response) {
 //     return response.json();
 // })
